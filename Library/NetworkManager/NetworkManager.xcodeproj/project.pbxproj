@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		9100442C1DE34BA800A5D70B /* UniversalLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9100442D1DE34BA800A5D70B /* Build configuration list for PBXAggregateTarget "UniversalLib" */;
+			buildPhases = (
+				910044321DE34BDB00A5D70B /* ShellScript */,
+				910044651DE3534900A5D70B /* CopyFiles */,
+			);
+			dependencies = (
+			);
+			name = UniversalLib;
+			productName = UniversalLib;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		910044281DE34B2C00A5D70B /* TANetworkCacheItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 910044211DE34B2C00A5D70B /* TANetworkCacheItem.m */; };
+		910044291DE34B2C00A5D70B /* TANetworkCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 910044231DE34B2C00A5D70B /* TANetworkCacheManager.m */; };
+		9100442A1DE34B2C00A5D70B /* TANetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 910044251DE34B2C00A5D70B /* TANetworkManager.m */; };
+		9100442B1DE34B2C00A5D70B /* TANetworkTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 910044271DE34B2C00A5D70B /* TANetworkTask.m */; };
+		9100445B1DE3522E00A5D70B /* TANetworkManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 910044241DE34B2C00A5D70B /* TANetworkManager.h */; };
+		9100445F1DE352A200A5D70B /* TANetworkTask.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 910044261DE34B2C00A5D70B /* TANetworkTask.h */; };
+		910044661DE3535A00A5D70B /* TANetworkManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 910044241DE34B2C00A5D70B /* TANetworkManager.h */; };
+		910044671DE3535A00A5D70B /* TANetworkTask.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 910044261DE34B2C00A5D70B /* TANetworkTask.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		910044121DE34AE400A5D70B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				9100445F1DE352A200A5D70B /* TANetworkTask.h in CopyFiles */,
+				9100445B1DE3522E00A5D70B /* TANetworkManager.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		910044651DE3534900A5D70B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				910044661DE3535A00A5D70B /* TANetworkManager.h in CopyFiles */,
+				910044671DE3535A00A5D70B /* TANetworkTask.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		910044141DE34AE400A5D70B /* libNetworkManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetworkManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		910044201DE34B2C00A5D70B /* TANetworkCacheItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TANetworkCacheItem.h; sourceTree = "<group>"; };
+		910044211DE34B2C00A5D70B /* TANetworkCacheItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TANetworkCacheItem.m; sourceTree = "<group>"; };
+		910044221DE34B2C00A5D70B /* TANetworkCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TANetworkCacheManager.h; sourceTree = "<group>"; };
+		910044231DE34B2C00A5D70B /* TANetworkCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TANetworkCacheManager.m; sourceTree = "<group>"; };
+		910044241DE34B2C00A5D70B /* TANetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TANetworkManager.h; sourceTree = "<group>"; };
+		910044251DE34B2C00A5D70B /* TANetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TANetworkManager.m; sourceTree = "<group>"; };
+		910044261DE34B2C00A5D70B /* TANetworkTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TANetworkTask.h; sourceTree = "<group>"; };
+		910044271DE34B2C00A5D70B /* TANetworkTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TANetworkTask.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		910044111DE34AE400A5D70B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9100440B1DE34AE400A5D70B = {
+			isa = PBXGroup;
+			children = (
+				910044161DE34AE400A5D70B /* NetworkManager */,
+				910044151DE34AE400A5D70B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		910044151DE34AE400A5D70B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				910044141DE34AE400A5D70B /* libNetworkManager.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		910044161DE34AE400A5D70B /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				910044201DE34B2C00A5D70B /* TANetworkCacheItem.h */,
+				910044211DE34B2C00A5D70B /* TANetworkCacheItem.m */,
+				910044221DE34B2C00A5D70B /* TANetworkCacheManager.h */,
+				910044231DE34B2C00A5D70B /* TANetworkCacheManager.m */,
+				910044241DE34B2C00A5D70B /* TANetworkManager.h */,
+				910044251DE34B2C00A5D70B /* TANetworkManager.m */,
+				910044261DE34B2C00A5D70B /* TANetworkTask.h */,
+				910044271DE34B2C00A5D70B /* TANetworkTask.m */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		910044131DE34AE400A5D70B /* NetworkManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9100441D1DE34AE400A5D70B /* Build configuration list for PBXNativeTarget "NetworkManager" */;
+			buildPhases = (
+				910044101DE34AE400A5D70B /* Sources */,
+				910044111DE34AE400A5D70B /* Frameworks */,
+				910044121DE34AE400A5D70B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetworkManager;
+			productName = NetworkManager;
+			productReference = 910044141DE34AE400A5D70B /* libNetworkManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9100440C1DE34AE400A5D70B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = AK;
+				TargetAttributes = {
+					910044131DE34AE400A5D70B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					9100442C1DE34BA800A5D70B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9100440F1DE34AE400A5D70B /* Build configuration list for PBXProject "NetworkManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9100440B1DE34AE400A5D70B;
+			productRefGroup = 910044151DE34AE400A5D70B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				910044131DE34AE400A5D70B /* NetworkManager */,
+				9100442C1DE34BA800A5D70B /* UniversalLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		910044321DE34BDB00A5D70B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target NetworkManager ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target NetworkManager ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\nXCODEUUID=`defaults read /Applications/Xcode.app/Contents/Info DVTPlugInCompatibilityUUID`\nfor f in ~/Library/Application\\ Support/Developer/Shared/Xcode/Plug-ins/*; do defaults write \"$f/Contents/Info\" DVTPlugInCompatibilityUUIDs -array-add $XCODEUUID; done";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		910044101DE34AE400A5D70B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9100442B1DE34B2C00A5D70B /* TANetworkTask.m in Sources */,
+				9100442A1DE34B2C00A5D70B /* TANetworkManager.m in Sources */,
+				910044291DE34B2C00A5D70B /* TANetworkCacheManager.m in Sources */,
+				910044281DE34B2C00A5D70B /* TANetworkCacheItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9100441B1DE34AE400A5D70B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+					armv7,
+					armv7s,
+					arm64,
+				);
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9100441C1DE34AE400A5D70B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+					armv7,
+					armv7s,
+					arm64,
+				);
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9100441E1DE34AE400A5D70B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+					arm64,
+					armv7,
+					armv7s,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9100441F1DE34AE400A5D70B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+					arm64,
+					armv7,
+					armv7s,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9100442E1DE34BA800A5D70B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+					armv7,
+					armv7s,
+					arm64,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9100442F1DE34BA800A5D70B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+					armv7,
+					armv7s,
+					arm64,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9100440F1DE34AE400A5D70B /* Build configuration list for PBXProject "NetworkManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9100441B1DE34AE400A5D70B /* Debug */,
+				9100441C1DE34AE400A5D70B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9100441D1DE34AE400A5D70B /* Build configuration list for PBXNativeTarget "NetworkManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9100441E1DE34AE400A5D70B /* Debug */,
+				9100441F1DE34AE400A5D70B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9100442D1DE34BA800A5D70B /* Build configuration list for PBXAggregateTarget "UniversalLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9100442E1DE34BA800A5D70B /* Debug */,
+				9100442F1DE34BA800A5D70B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9100440C1DE34AE400A5D70B /* Project object */;
+}

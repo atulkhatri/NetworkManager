@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ImageListCell" id="gTV-IL-0wX" customClass="TAImageCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="131" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="131" height="120"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oNA-r4-vp8"/>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="uXv-uR-YgD"/>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="uXv-uR-YgD" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="1VL-3O-Gbx"/>
+                <constraint firstItem="uXv-uR-YgD" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="1dU-Fv-Fvn"/>
+                <constraint firstItem="oNA-r4-vp8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="88N-hj-eYy"/>
+                <constraint firstItem="oNA-r4-vp8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="SYg-jo-dqf"/>
+                <constraint firstAttribute="trailing" secondItem="oNA-r4-vp8" secondAttribute="trailing" id="XpP-et-3Ks"/>
+                <constraint firstAttribute="bottom" secondItem="oNA-r4-vp8" secondAttribute="bottom" id="yCt-xR-IXK"/>
+            </constraints>
+            <size key="customSize" width="131" height="120"/>
+            <connections>
+                <outlet property="activityIndicator" destination="uXv-uR-YgD" id="hJv-HO-QRY"/>
+                <outlet property="imageView" destination="oNA-r4-vp8" id="CWx-tr-62a"/>
+            </connections>
+            <point key="canvasLocation" x="-177.5" y="-111"/>
+        </collectionViewCell>
+    </objects>
+</document>

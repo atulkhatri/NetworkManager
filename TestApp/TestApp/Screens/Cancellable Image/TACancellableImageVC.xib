@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TACancellableImageVC">
+            <connections>
+                <outlet property="activityIndicator" destination="EuW-d6-wDO" id="UDb-sm-laJ"/>
+                <outlet property="downloadButton" destination="kY7-MW-CqQ" id="Osz-Pp-VPR"/>
+                <outlet property="imageView" destination="daa-ed-B2s" id="FFB-mr-wj0"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="daa-ed-B2s">
+                    <rect key="frame" x="67.5" y="100" width="240" height="240"/>
+                    <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="240" id="Brx-66-qEa"/>
+                        <constraint firstAttribute="width" constant="240" id="kic-hX-Tcl"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kY7-MW-CqQ">
+                    <rect key="frame" x="20" y="364" width="335" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="7bF-BY-zBN"/>
+                    </constraints>
+                    <state key="normal" title="Start Downlaod">
+                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" title="Cancel Download">
+                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="downloadButtonTapped:" destination="-1" eventType="touchUpInside" id="lWq-S3-UV5"/>
+                    </connections>
+                </button>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="EuW-d6-wDO">
+                    <rect key="frame" x="177.5" y="210" width="20" height="20"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="EuW-d6-wDO" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="210" id="3Ax-U7-yJZ"/>
+                <constraint firstItem="daa-ed-B2s" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="6Yl-7J-WVc"/>
+                <constraint firstItem="EuW-d6-wDO" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8HC-SI-ZOo"/>
+                <constraint firstItem="daa-ed-B2s" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="rdN-f4-w9S"/>
+                <constraint firstItem="kY7-MW-CqQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="tk8-je-Qly"/>
+                <constraint firstItem="kY7-MW-CqQ" firstAttribute="top" secondItem="daa-ed-B2s" secondAttribute="bottom" constant="24" id="vDc-uP-EOV"/>
+                <constraint firstAttribute="trailing" secondItem="kY7-MW-CqQ" secondAttribute="trailing" constant="20" id="vSw-cJ-eY1"/>
+            </constraints>
+            <point key="canvasLocation" x="-3.5" y="7.5"/>
+        </view>
+    </objects>
+</document>
